@@ -1,0 +1,27 @@
+# This is a sample.gitignore file
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*~
+
+
+# Ignore node_modules folder
+node_modules/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore npm debug logs
+npm-debug.log*
+
+# Ignore yarn error logs
+yarn-error.log*
+
+# Ignore IDE files
+*.sublime-workspace
+*.vscode
+
+# Ignore build directories
+dist/
