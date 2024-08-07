@@ -1,0 +1,26 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "react/prop-types": "off", // Disable prop-types rule globally
+    "no-unused-vars": "off", // Disable no-unused-vars rule globally
+    "react/react-in-jsx-scope": "off" // Disable react-in-jsx-scope rule globally
+    // Add other rules to disable globally as needed
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
